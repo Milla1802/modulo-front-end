@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+}
+
+.appContainer {
+    width: 80%;
+    margin: auto;
+    margin-top: 10px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+    color: rgb(231, 59, 59);
+    text-shadow: 1px 1px 8px rgb(201, 107, 107);
+}
+.pokedex {
+   display: flex;
+   margin:auto;
+   flex-wrap: wrap;
+   justify-content: center;
+}
+
+.containerPokemons {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    flex: 1 1 auto;
+    min-width: 25%; 
+    border-radius: 20px;
+    border: 1px solid rgb(151, 23, 23); 
+    box-shadow: 5px 5px 6px rgb(173, 124, 124);
+}
